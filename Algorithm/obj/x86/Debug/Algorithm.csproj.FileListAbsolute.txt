@@ -1,0 +1,6 @@
+/Users/dusf/Documents/algorithm/Algorithm/Algorithm/bin/Debug/Algorithm.exe
+/Users/dusf/Documents/algorithm/Algorithm/Algorithm/bin/Debug/Algorithm.pdb
+/Users/dusf/Documents/algorithm/Algorithm/Algorithm/obj/x86/Debug/Algorithm.csproj.CoreCompileInputs.cache
+/Users/dusf/Documents/algorithm/Algorithm/Algorithm/obj/x86/Debug/Algorithm.exe
+/Users/dusf/Documents/algorithm/Algorithm/Algorithm/obj/x86/Debug/Algorithm.pdb
+/Users/dusf/Documents/algorithm/Algorithm/Algorithm/obj/x86/Debug/Algorithm.csprojResolveAssemblyReference.cache
