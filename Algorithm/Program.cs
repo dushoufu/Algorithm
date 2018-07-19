@@ -25,6 +25,9 @@ namespace Algorithm
             result = ArrayAlgorithm.TestTwoSum(out func);
             resultDic.Add(func, result);
 
+            result = ArrayAlgorithm.TestThreeSumZero(out func);
+            resultDic.Add(func, result);
+
             foreach(KeyValuePair<string,bool> kv in resultDic)
                 Console.WriteLine("{0}:{1}",kv.Key,kv.Value);
 

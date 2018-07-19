@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace Algorithm.Array
 {
@@ -24,10 +25,19 @@ namespace Algorithm.Array
                 return;
             }
 
-            Hashtable ht = new Hashtable();
+            Hashtable hs = new Hashtable();
             for (int i= 0; i < src.Length;i++ )
             {
-                ht.Add(src[i], i);
+                if (hs.ContainsKey(src[i]))
+                {
+                    var index = hs[src[i]] as List<int>;
+                    index.Add(i);
+                }
+                else
+                {
+                    hs[src[i]] = new List<int> { i };
+
+                }
             }
 
             for (int i = 0; i < src.Length;i++)
@@ -35,10 +45,16 @@ namespace Algorithm.Array
                 if (src[i] > target)
                     break;
                 
-                if(ht.ContainsKey(target-src[i]))
+                if (hs.ContainsKey(target - src[i]))
                 {
-                    index1 = i;
-                    index2 = (int)ht[target - src[i]];
+                    var index = hs[target - src[i]] as List<int>;
+
+                    int id = index.Find(x => x != i);
+                    if (id != 0)
+                    {
+                        index1 = i + 1;
+                        index2 = id + 1;
+                    }
 
                     return;
                 }
@@ -54,11 +70,11 @@ namespace Algorithm.Array
             System.Diagnostics.StackFrame sf = new System.Diagnostics.StackFrame(0);
             funcName = sf.GetMethod().Name;
 
-            int[] a = new int[] { 2, 7, 11, 15 };
+            int[] a = new int[] { 3,2, 2,2,7, 11, 14,15 };
             int target = 17;
 
-            int index1,index1_expected = 0;
-            int index2,index2_expected = 3;
+            int index1,index1_expected = 1;
+            int index2, index2_expected = 7;
 
             TwoSum(a,target,out index1,out index2);
 
