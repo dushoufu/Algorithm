@@ -35,8 +35,11 @@ namespace Algorithm.Array
             int countRight = 0;
             int countLeft = 0;
          
-            for (int i = 0; i < src.Length&&hash.Contains(src[i]); i++)
+            for (int i = 0; i < src.Length; i++)
             {
+                if(!hash.Contains(src[i]))
+                         continue;
+                
                 int j = 1;
                 countRight = 0;
                 while (hash.Contains(src[i] + j))

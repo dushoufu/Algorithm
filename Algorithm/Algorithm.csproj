@@ -40,6 +40,12 @@
     <Compile Include="Array\Util.cs" />
     <Compile Include="Array\TwoSum.cs" />
     <Compile Include="Array\ThreeSumZero.cs" />
+    <Compile Include="Array\FourSum.cs" />
+    <Compile Include="Array\ThreeSumClosest.cs" />
+    <Compile Include="Array\RemoveElement.cs" />
+    <Compile Include="Array\RemoveZeros.cs" />
+    <Compile Include="Array\NextPermutation.cs" />
+    <Compile Include="Array\PermutationSequence.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Array\" />
