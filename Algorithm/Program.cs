@@ -53,6 +53,9 @@ namespace Algorithm
             result = ArrayAlgorithm.TestNextPermutaion(out func);
             resultDic.Add(func, result);
 
+            result = ArrayAlgorithm.TestPermutaionSequence(out func);
+            resultDic.Add(func, result);
+
             foreach (KeyValuePair<string, bool> kv in resultDic)
             {
                 Console.WriteLine("{0}:{1}", kv.Key, kv.Value);
