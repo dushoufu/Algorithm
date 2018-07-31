@@ -4,3 +4,10 @@
 /Users/dusf/Documents/algorithm/Algorithm/Algorithm/obj/x86/Debug/Algorithm.exe
 /Users/dusf/Documents/algorithm/Algorithm/Algorithm/obj/x86/Debug/Algorithm.pdb
 /Users/dusf/Documents/algorithm/Algorithm/Algorithm/obj/x86/Debug/Algorithm.csprojResolveAssemblyReference.cache
+E:\新建文件夹\myprj\Algorithm\Algorithm\bin\Debug\Algorithm.exe.config
+E:\新建文件夹\myprj\Algorithm\Algorithm\bin\Debug\Algorithm.exe
+E:\新建文件夹\myprj\Algorithm\Algorithm\bin\Debug\Algorithm.pdb
+E:\新建文件夹\myprj\Algorithm\Algorithm\obj\x86\Debug\Algorithm.csprojResolveAssemblyReference.cache
+E:\新建文件夹\myprj\Algorithm\Algorithm\obj\x86\Debug\Algorithm.csproj.CoreCompileInputs.cache
+E:\新建文件夹\myprj\Algorithm\Algorithm\obj\x86\Debug\Algorithm.exe
+E:\新建文件夹\myprj\Algorithm\Algorithm\obj\x86\Debug\Algorithm.pdb

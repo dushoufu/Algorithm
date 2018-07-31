@@ -201,21 +201,20 @@ namespace Algorithm.Array
             int[] a = PermutaionSequenceV1(5,115);
             int[] b = PermutaionSequenceV3(5,115);
 
+            //Console.WriteLine("a:");
+            //foreach(var i in a)
+            //{
+            //    Console.Write("  {0}", i);
+            //}
 
-            Console.WriteLine("a:");
-            foreach(var i in a)
-            {
-                Console.Write("  {0}", i);
-            }
+            //Console.WriteLine();
+            //Console.WriteLine("b:");
+            //foreach (var i in b)
+            //{
+            //    Console.Write("  {0}", i);
+            //}
 
-            Console.WriteLine();
-            Console.WriteLine("b:");
-            foreach (var i in b)
-            {
-                Console.Write("  {0}", i);
-            }
-
-            Console.WriteLine();
+            //Console.WriteLine();
             return false;
 
         }
